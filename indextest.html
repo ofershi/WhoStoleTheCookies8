@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>מי גנב את העוגיות?</title>
+    <meta name="description" content="name of game" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" href="images/cookie.svg" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+               <img id="logo" src="images/logo.png"/>
+               <!--<p>מי גנב את העוגיות?</p>-->
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <span class="closeAbout xxx">X</span>
+            <img id="logo1" src="images/logo1.png" />
+            <p><strong>אפיון ופיתוח: נופר מאיר, עפר שימר וחן שטרנין </strong></p>
+            <p>
+                אופיין ופותח במסגרת פרויקט בקורסים:<br /><br />
+                סביבות לימוד אינטאקטיביות 1 + תכנות אינטראקטיבי 1
+            </p><br />
+            <p>תשפ"ב</p>
+            <a href="https://www.hit.ac.il/telem/overview"> <p>הפקולטה לטכנולוגיות תלמידה</p></a>
+            <img id="logoHIT" src="images/logo50_new.png" />
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <span class="closeHowToPlay xxx">X</span>
+            <img id="logo1" src="images/logo1.png" />
+            <p id="howPlayHeader">איך משחקים?</p>
+
+            <p> בואו נעזור לילד העצוב לגלות מי גנב את העוגיות!</p>
+            <p> בחרו בתשובה הנכונה על ידי לחיצה עליה וכשאתם בטוחים לחצו על כפתור "בדוק".</p>
+            <p> אם צדקתם, עוגיה אחת תחזור מהחיה שגנבה אותה לצנצנת העוגיות של הילד.</p>
+            <p> ברגע שכל 12 העוגיות יחזרו לצנצנת המשחק ייגמר.</p>
+            <p> <span>שימו לב! </span>יש לכם 30 שניות לענות על כל שאלה ולגרום לילד לחייך!</p><br />
+            <p>ניתן לעצור את המשחק על ידי לחיצה על כפתור ההשהייה</p>
+            <p>  ניתן להשתיק את מוזיקת הרקע על ידי לחיצה על כפתור הרמקול</p>
+        </div>
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="https://nuf74.github.io/FinalWhoStoleTheCookies/WhoStoleTheCookiesFinal" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+
+    </div>
+</body>
+
+</html>

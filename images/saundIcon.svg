@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58.279" height="58.22" viewBox="0 0 58.279 58.22">
+  <defs>
+    <filter id="Ellipse_43" x="0" y="0" width="58.279" height="58.22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="כפתור_" data-name="כפתור " transform="translate(-0.097 -1.341)">
+    <g transform="matrix(1, 0, 0, 1, 0.1, 1.34)" filter="url(#Ellipse_43)">
+      <ellipse id="Ellipse_43-2" data-name="Ellipse 43" cx="20.139" cy="20.11" rx="20.139" ry="20.11" transform="translate(9 6)" fill="#325577"/>
+    </g>
+    <path id="Icon_ionic-ios-volume-mute" data-name="Icon ionic-ios-volume-mute" d="M26.994,10.276a1.532,1.532,0,0,0-.668-.151,1.578,1.578,0,0,0-.969.331l-6.317,4.96H13.925a1.536,1.536,0,0,0-1.55,1.512v7.559A1.536,1.536,0,0,0,13.925,26H19.04l6.317,4.96a1.6,1.6,0,0,0,.969.331,1.532,1.532,0,0,0,.668-.151,1.509,1.509,0,0,0,.882-1.361V11.637A1.488,1.488,0,0,0,26.994,10.276Z" transform="translate(8.111 6.744)" fill="#fff"/>
+  </g>
+</svg>
